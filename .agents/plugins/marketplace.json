@@ -1,0 +1,20 @@
+{
+  "name": "agentzero-local",
+  "interface": {
+    "displayName": "AgentZero · Codex / DSH"
+  },
+  "plugins": [
+    {
+      "name": "agentzero",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agentzero"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
